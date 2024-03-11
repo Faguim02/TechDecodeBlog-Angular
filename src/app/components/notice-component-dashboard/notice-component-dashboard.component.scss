@@ -1,0 +1,56 @@
+@import "../../../styles.scss";
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.1s;
+}
+.btn:active{
+    filter: brightness(90%);
+}
+
+.edit{
+    background-color: $green_color;
+    width: 45px;
+    height: 45px;
+}
+.delete{
+    background-color: $red_color;
+    width: 45px;
+    height: 45px;
+}
+
+.notice_container{
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.action{
+    display: flex;
+    gap: 1rem;
+}
+
+.trailling label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 450px) {
+    .trailling label{
+        font-size: 12px;
+    }
+    .visites-txt{
+        font-size: 10px;
+    }
+}
