@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
-import { SignInService } from '../../service/sign-in.service';
+import { SignInService } from '../../service/signIn/sign-in.service';
 import { environment } from '../../../environments/environment';
 
 @Component({

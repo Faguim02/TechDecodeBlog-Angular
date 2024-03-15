@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { environment } from '../../environments/environment';
-import { SignIn } from '../pages/sign-in/sign-in.dto';
+import { environment } from '../../../environments/environment';
+import { SignIn } from '../../pages/sign-in/sign-in.dto';
 
 @Injectable({
   providedIn: 'root'

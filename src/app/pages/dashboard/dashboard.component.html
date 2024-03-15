@@ -8,6 +8,6 @@
     </header>
     <button class="btn add_notice">Criar nova noticias</button>
     <article class="notices_container">
-        <app-notice-component-dashboard></app-notice-component-dashboard>
+        <app-notice-component-dashboard *ngFor="let notice of notices | async" [title]="notice.title" [visites]="notice.view" [id]="notice.id"></app-notice-component-dashboard>
     </article>
 </div>
